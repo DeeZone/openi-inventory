@@ -1,0 +1,43 @@
+{
+    "name": "openi-inventory",
+    "version": "0.0.1",
+    "description": "A sample Node exercise to generate a report based on inventory data.",
+    "homepage" : "https://github.com/DeeZone/openi-inventory",
+    "author": "Darren Lee <darrendouglas.lee@gmail.com>",
+    "contributors": [
+        {
+            "name": "Darren 'Dee' Lee",
+            "email": "darrendouglas.lee@gmail.com"
+        }
+    ],
+    "main": "openi-inventory.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DeeZone/openi-inventory"
+    },
+    "bugs": {
+        "url": "https://github.com/DeeZone/openi-inventory/issues"
+    },
+    "engines" : {
+        "node" : ">=6.10.0"
+    },
+    "keywords": [
+        "sample",
+        "exercise",
+        "inventory",
+        "report"
+    ],
+    "dependencies": {
+
+    },
+    "devDependencies": {
+        "supertest": "^1.1.0",
+        "should": "^8.0.1",
+        "mocha":"^2.3.4"
+    },
+    "scripts": {
+        "test": "NODE_ENV=development mocha openi-inventory.js test.js",
+        "start": "bin/openi-inventory"
+    },
+    "license": "MIT"
+}
